@@ -4,7 +4,7 @@ const userController = require('../controllers/userController');
 
 router
     .post('/register',userController.createUser)
-    .get('/login', userController.loginUser)
+    .post('/login', userController.loginUser)
     
 
 module.exports = router;
